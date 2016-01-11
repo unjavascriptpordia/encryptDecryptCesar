@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'/>
+		<title>
+			UnJavascriptPorDia | Cifrado y Descifrado Cesar
+		</title>
+		<style>
+			#content{
+				text-align:center;
+			}
+			textarea{
+				width:300px;
+				height:300px;
+			}
+		</style>
+		<script type='text/javascript' src='encryptDecryptCesar.js'></script>
+	</head>
+	<body>
+		<div id='content'>
+			<textarea id='data' placeholder='Ingresa el texto a cifrar o descifrar'></textarea>
+			<textarea id='result' disabled></textarea>
+			<br/>
+			<label>Desplazamiento</label>
+			<input id='n' type='text' value=''/>
+			<input id='encrypt' type='button' value='Cifrar'>
+			<input id='decrypt' type='button' value='Descifrar'>
+		</div>
+	</body>
+</html>
